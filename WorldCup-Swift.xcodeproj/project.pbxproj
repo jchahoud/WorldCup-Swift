@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2404EF521953904F0047E733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF511953904F0047E733 /* AppDelegate.swift */; };
+		2404EF541953904F0047E733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF531953904F0047E733 /* ViewController.swift */; };
+		2404EF571953904F0047E733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2404EF551953904F0047E733 /* Main.storyboard */; };
+		2404EF591953904F0047E733 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2404EF581953904F0047E733 /* Images.xcassets */; };
+		2404EF651953904F0047E733 /* WorldCup_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF641953904F0047E733 /* WorldCup_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2404EF5F1953904F0047E733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2404EF441953904F0047E733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2404EF4B1953904F0047E733;
+			remoteInfo = "WorldCup-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2404EF4C1953904F0047E733 /* WorldCup-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldCup-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2404EF501953904F0047E733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2404EF511953904F0047E733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2404EF531953904F0047E733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2404EF561953904F0047E733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2404EF581953904F0047E733 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2404EF5E1953904F0047E733 /* WorldCup-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorldCup-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2404EF631953904F0047E733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2404EF641953904F0047E733 /* WorldCup_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2404EF491953904F0047E733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2404EF5B1953904F0047E733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2404EF431953904F0047E733 = {
+			isa = PBXGroup;
+			children = (
+				2404EF4E1953904F0047E733 /* WorldCup-Swift */,
+				2404EF611953904F0047E733 /* WorldCup-SwiftTests */,
+				2404EF4D1953904F0047E733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2404EF4D1953904F0047E733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF4C1953904F0047E733 /* WorldCup-Swift.app */,
+				2404EF5E1953904F0047E733 /* WorldCup-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2404EF4E1953904F0047E733 /* WorldCup-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF511953904F0047E733 /* AppDelegate.swift */,
+				2404EF531953904F0047E733 /* ViewController.swift */,
+				2404EF551953904F0047E733 /* Main.storyboard */,
+				2404EF581953904F0047E733 /* Images.xcassets */,
+				2404EF4F1953904F0047E733 /* Supporting Files */,
+			);
+			path = "WorldCup-Swift";
+			sourceTree = "<group>";
+		};
+		2404EF4F1953904F0047E733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF501953904F0047E733 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2404EF611953904F0047E733 /* WorldCup-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF641953904F0047E733 /* WorldCup_SwiftTests.swift */,
+				2404EF621953904F0047E733 /* Supporting Files */,
+			);
+			path = "WorldCup-SwiftTests";
+			sourceTree = "<group>";
+		};
+		2404EF621953904F0047E733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF631953904F0047E733 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2404EF4B1953904F0047E733 /* WorldCup-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2404EF681953904F0047E733 /* Build configuration list for PBXNativeTarget "WorldCup-Swift" */;
+			buildPhases = (
+				2404EF481953904F0047E733 /* Sources */,
+				2404EF491953904F0047E733 /* Frameworks */,
+				2404EF4A1953904F0047E733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorldCup-Swift";
+			productName = "WorldCup-Swift";
+			productReference = 2404EF4C1953904F0047E733 /* WorldCup-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2404EF5D1953904F0047E733 /* WorldCup-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2404EF6B1953904F0047E733 /* Build configuration list for PBXNativeTarget "WorldCup-SwiftTests" */;
+			buildPhases = (
+				2404EF5A1953904F0047E733 /* Sources */,
+				2404EF5B1953904F0047E733 /* Frameworks */,
+				2404EF5C1953904F0047E733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2404EF601953904F0047E733 /* PBXTargetDependency */,
+			);
+			name = "WorldCup-SwiftTests";
+			productName = "WorldCup-SwiftTests";
+			productReference = 2404EF5E1953904F0047E733 /* WorldCup-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2404EF441953904F0047E733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jchahoud;
+				TargetAttributes = {
+					2404EF4B1953904F0047E733 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					2404EF5D1953904F0047E733 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2404EF4B1953904F0047E733;
+					};
+				};
+			};
+			buildConfigurationList = 2404EF471953904F0047E733 /* Build configuration list for PBXProject "WorldCup-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2404EF431953904F0047E733;
+			productRefGroup = 2404EF4D1953904F0047E733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2404EF4B1953904F0047E733 /* WorldCup-Swift */,
+				2404EF5D1953904F0047E733 /* WorldCup-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2404EF4A1953904F0047E733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404EF571953904F0047E733 /* Main.storyboard in Resources */,
+				2404EF591953904F0047E733 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2404EF5C1953904F0047E733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2404EF481953904F0047E733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404EF541953904F0047E733 /* ViewController.swift in Sources */,
+				2404EF521953904F0047E733 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2404EF5A1953904F0047E733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404EF651953904F0047E733 /* WorldCup_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2404EF601953904F0047E733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2404EF4B1953904F0047E733 /* WorldCup-Swift */;
+			targetProxy = 2404EF5F1953904F0047E733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2404EF551953904F0047E733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2404EF561953904F0047E733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2404EF661953904F0047E733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2404EF671953904F0047E733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2404EF691953904F0047E733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "WorldCup-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2404EF6A1953904F0047E733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "WorldCup-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2404EF6C1953904F0047E733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCup-Swift.app/WorldCup-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorldCup-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2404EF6D1953904F0047E733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCup-Swift.app/WorldCup-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorldCup-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2404EF471953904F0047E733 /* Build configuration list for PBXProject "WorldCup-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2404EF661953904F0047E733 /* Debug */,
+				2404EF671953904F0047E733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2404EF681953904F0047E733 /* Build configuration list for PBXNativeTarget "WorldCup-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2404EF691953904F0047E733 /* Debug */,
+				2404EF6A1953904F0047E733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2404EF6B1953904F0047E733 /* Build configuration list for PBXNativeTarget "WorldCup-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2404EF6C1953904F0047E733 /* Debug */,
+				2404EF6D1953904F0047E733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2404EF441953904F0047E733 /* Project object */;
+}
