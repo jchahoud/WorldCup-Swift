@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class MatchCell: UITableViewCell {
 
     @IBOutlet var homeTeam: UILabel
@@ -17,8 +19,6 @@ class MatchCell: UITableViewCell {
     @IBOutlet var awayGoals: UILabel
     @IBOutlet var awayLogoImage: UIImageView
     @IBOutlet var stadiums: UILabel
-    
-    
     
     func configCell (match: Match)->Void
     {
@@ -40,34 +40,8 @@ class MatchCell: UITableViewCell {
             
         }
         
-        //home logo image lazy loading
-        self.homeLogoImage.image=nil
-        var imgURL: NSURL = NSURL(string: match.c_HomeLogoImage)
-        var request: NSURLRequest = NSURLRequest(URL: imgURL, cachePolicy:.ReturnCacheDataElseLoad , timeoutInterval: 120)
-        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler:
-            {(response: NSURLResponse!,data: NSData!,error: NSError!) -> Void in
-                if !error? {
-                    self.homeLogoImage.image = UIImage(data:data)
-                }
-                else {
-                    println("Error: \(error.localizedDescription)")
-                }
-            })
-        
-        //away logo image lazy loading
-        /*self.awayLogoImage.image=nil
-        var awayImgURL: NSURL = NSURL(string: match.c_AwayLogoImage)
-        var awayRequest: NSURLRequest = NSURLRequest(URL: awayImgURL, cachePolicy:.ReturnCacheDataElseLoad , timeoutInterval: 120)
-        NSURLConnection.sendAsynchronousRequest(awayRequest, queue: NSOperationQueue.mainQueue(), completionHandler:
-            {(response: NSURLResponse!,data: NSData!,error: NSError!) -> Void in
-                if !error? {
-                    self.awayLogoImage.image = UIImage(data:data)
-                }
-                else {
-                    println("Error: \(error.localizedDescription)")
-                }
-            })*/
+        homeLogoImage.setImageWithURL(NSURL(string:match.c_HomeLogoImage))
+
+        awayLogoImage.setImageWithURL(NSURL(string:match.c_AwayLogoImage))
     }
-    
-    
 }
