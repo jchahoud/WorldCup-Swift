@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2404EF521953904F0047E733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF511953904F0047E733 /* AppDelegate.swift */; };
-		2404EF541953904F0047E733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF531953904F0047E733 /* ViewController.swift */; };
 		2404EF571953904F0047E733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2404EF551953904F0047E733 /* Main.storyboard */; };
 		2404EF591953904F0047E733 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2404EF581953904F0047E733 /* Images.xcassets */; };
 		2404EF651953904F0047E733 /* WorldCup_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF641953904F0047E733 /* WorldCup_SwiftTests.swift */; };
+		2404EF6F1953919A0047E733 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF6E1953919A0047E733 /* MatchesTableViewController.swift */; };
+		2404EF71195391CE0047E733 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF70195391CE0047E733 /* TeamsTableViewController.swift */; };
+		2404EF73195392190047E733 /* PlayersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF72195392190047E733 /* PlayersCollectionViewController.swift */; };
+		2404EF771953B3EE0047E733 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF761953B3EE0047E733 /* Match.swift */; };
+		2404EF7C1953B4950047E733 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404EF7B1953B4950047E733 /* MatchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +32,16 @@
 		2404EF4C1953904F0047E733 /* WorldCup-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldCup-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2404EF501953904F0047E733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2404EF511953904F0047E733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2404EF531953904F0047E733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2404EF561953904F0047E733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2404EF581953904F0047E733 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2404EF5E1953904F0047E733 /* WorldCup-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorldCup-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2404EF631953904F0047E733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2404EF641953904F0047E733 /* WorldCup_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup_SwiftTests.swift; sourceTree = "<group>"; };
+		2404EF6E1953919A0047E733 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
+		2404EF70195391CE0047E733 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		2404EF72195392190047E733 /* PlayersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersCollectionViewController.swift; sourceTree = "<group>"; };
+		2404EF761953B3EE0047E733 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		2404EF7B1953B4950047E733 /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				2404EF511953904F0047E733 /* AppDelegate.swift */,
-				2404EF531953904F0047E733 /* ViewController.swift */,
 				2404EF551953904F0047E733 /* Main.storyboard */,
+				2404EF7A1953B41D0047E733 /* Model */,
+				2404EF791953B4130047E733 /* View */,
+				2404EF781953B3FC0047E733 /* Controllers */,
 				2404EF581953904F0047E733 /* Images.xcassets */,
 				2404EF4F1953904F0047E733 /* Supporting Files */,
 			);
@@ -107,6 +117,32 @@
 				2404EF631953904F0047E733 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2404EF781953B3FC0047E733 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF72195392190047E733 /* PlayersCollectionViewController.swift */,
+				2404EF70195391CE0047E733 /* TeamsTableViewController.swift */,
+				2404EF6E1953919A0047E733 /* MatchesTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2404EF791953B4130047E733 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF7B1953B4950047E733 /* MatchCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2404EF7A1953B41D0047E733 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2404EF761953B3EE0047E733 /* Match.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2404EF541953904F0047E733 /* ViewController.swift in Sources */,
+				2404EF771953B3EE0047E733 /* Match.swift in Sources */,
+				2404EF73195392190047E733 /* PlayersCollectionViewController.swift in Sources */,
+				2404EF6F1953919A0047E733 /* MatchesTableViewController.swift in Sources */,
+				2404EF71195391CE0047E733 /* TeamsTableViewController.swift in Sources */,
 				2404EF521953904F0047E733 /* AppDelegate.swift in Sources */,
+				2404EF7C1953B4950047E733 /* MatchCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +439,7 @@
 				2404EF6A1953904F0047E733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2404EF6B1953904F0047E733 /* Build configuration list for PBXNativeTarget "WorldCup-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +448,7 @@
 				2404EF6D1953904F0047E733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
