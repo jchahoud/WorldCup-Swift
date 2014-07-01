@@ -42,6 +42,7 @@
 		2404EF761953B3EE0047E733 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		2404EF7B1953B4950047E733 /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
 		2478E8101955ED8C0064F448 /* WorldCup-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldCup-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		24C2FD831958B1EC00FDF2A5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		442CB61D3C6C4E7DA10FB76B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		96EFD23A64654F7384168EC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +75,7 @@
 				442CB61D3C6C4E7DA10FB76B /* Pods.xcconfig */,
 				CE0DCCE26BC6458181DE3A90 /* Frameworks */,
 				2478E8101955ED8C0064F448 /* WorldCup-Swift-Bridging-Header.h */,
+				24C2FD831958B1EC00FDF2A5 /* MyPlayground.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -420,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WorldCup-Swift-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "WorldCup-Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

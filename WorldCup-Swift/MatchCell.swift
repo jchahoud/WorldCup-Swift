@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class MatchCell: UITableViewCell {
 
     @IBOutlet var homeTeam: UILabel
@@ -31,7 +29,6 @@ class MatchCell: UITableViewCell {
         if let goals = match.n_HomeGoals
         {
             homeGoals.text = "\(goals)"
-
         }
 
         if let goals = match.n_AwayGoals
@@ -40,6 +37,7 @@ class MatchCell: UITableViewCell {
             
         }
         
+        //lazy images loading with SDWebImage
         homeLogoImage.setImageWithURL(NSURL(string:match.c_HomeLogoImage))
 
         awayLogoImage.setImageWithURL(NSURL(string:match.c_AwayLogoImage))
